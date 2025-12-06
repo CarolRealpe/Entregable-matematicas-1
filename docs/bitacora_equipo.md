@@ -59,8 +59,8 @@ Registrar de manera organizada todas las actividades, tareas, responsabilidades 
 
 | Fecha | Actividad | Responsable | Estado |
 |-------|-----------|-------------|--------|
-| **06 dic** | Crear repositorio y estructura | Carol | ✔ Completado |
-| **06 dic** | Subida del dataset | Luis | ✔ Completado |
+| **06 dic** | Crear repositorio y estructura | Carol | Completado |
+| **06 dic** | Subida del dataset | Luis | Completado |
 | **07 dic** | Evaluación de calidad del dataset | Luis | En proceso |
 | **07 dic** | Crear notebook inicial | Miguel | En proceso |
 | **08 dic** | Realizar EDA preliminar | Miguel | Pendiente |
