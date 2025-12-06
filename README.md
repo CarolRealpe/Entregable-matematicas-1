@@ -86,4 +86,119 @@ Este proyecto sigue las fases de ASUM-DM:
 ---
 
 ## 🗂 Estructura del repositorio
+Proyecto-Churn-ASUMDM
+│
+├── data/
+│ └── telco_churn.csv
+│
+├── notebooks/
+│ └── churn_project.ipynb
+│
+├── docs/
+│ ├── informe_tecnico_ASUMDM.pdf
+│ └── bitacora_equipo.pdf
+│
+├── presentation/
+│ └── elevator_pitch_churn.pptx
+│
+└── README.md
+
+
+---
+
+## Contenido del Notebook
+
+El notebook contiene:
+
+### EDA completo
+- Análisis de nulos  
+- Detección de anomalías  
+- Distribuciones  
+- Gráficos de churn  
+- Relación entre variables  
+- Más de 5 conclusiones basadas en evidencia  
+
+### Preparación de datos
+- Limpieza  
+- Imputación  
+- One-hot encoding  
+- Selección de variables  
+
+### Modelado
+- Regresión logística (modelo base)  
+- Árbol de decisión (si se requiere comparación)  
+
+### Optimización
+- Ajuste de hiperparámetros como:  
+  - `C`, `max_iter` (Logistic Regression)  
+  - `max_depth`, `criterion` (Decision Tree)  
+- Comparación antes / después  
+
+### Resultados finales
+- Interpretación de métricas  
+- Elección del mejor modelo  
+
+---
+
+## Equipo de trabajo
+
+| Nombre  | Rol principal | Responsabilidades |
+|---------|---------------|-------------------|
+| **Carol Realpe** | Coordinación general | Repositorio, ASUM-DM, informe técnico |
+| **Luis ______**  | Data Understanding | EDA, visualizaciones y hallazgos |
+| **Miguel ______** | Modelado | Modelo base y replicabilidad |
+| **Sneider ______** | Optimización | Ajuste de hiperparámetros y comparación |
+
+---
+
+## Bitácora de trabajo del equipo
+
+### **Día 1**
+- Creación del repositorio  
+- Descarga del dataset  
+- Plantilla inicial del notebook  
+
+### **Día 2–3**
+- Análisis exploratorio (EDA)  
+- Limpieza y preparación de datos  
+
+### **Día 4**
+- Modelado base  
+
+### **Día 5**
+- Optimización del modelo  
+- Evaluación comparativa  
+
+### **Día 6**
+- Elaboración del informe PDF  
+
+### **Día 7**
+- Construcción de la presentación  
+- Revisión final  
+
+---
+
+## 🛠 Tecnologías utilizadas
+
+- **Python 3.x**  
+- **Pandas, NumPy**  
+- **Matplotlib, Seaborn**  
+- **Scikit-learn**  
+- **Jupyter Notebook**  
+- **Git & GitHub**  
+
+---
+
+## Referencias
+
+- Dataset oficial: Telco Customer Churn  
+- IBM Sample Data Sets  
+- Documentación Scikit-learn  
+- ASUM-DM Framework  
+
+---
+
+## Estado final del proyecto
+Este proyecto cumple los requisitos del **Desafío Integral de Análisis, Modelado y Optimización de Datos**, demostrando la aplicación práctica del ciclo ASUM-DM desde el análisis exploratorio inicial hasta la comunicación de resultados.
+
 
