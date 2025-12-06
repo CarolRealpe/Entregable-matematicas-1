@@ -1,4 +1,3 @@
-# Entregable-matematicas-1
 # Predicción de Churn de Clientes  
 ## Proyecto Integral de Analítica y Modelado de Datos  
 ### Aplicando la metodología ASUM-DM
