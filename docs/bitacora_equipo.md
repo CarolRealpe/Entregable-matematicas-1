@@ -84,10 +84,10 @@ Registrar de manera organizada todas las actividades, tareas, responsabilidades 
 ---
 
 # 4. Estado Actual del Proyecto
-- ✔ Repositorio creado  
-- ✔ Carpetas principales listas  
-- ✔ Bitácora inicial registrada  
-- ✔ Dataset seleccionado  
+- Repositorio creado  
+- Carpetas principales listas  
+- Bitácora inicial registrada  
+- Dataset seleccionado  
 - EDA, limpieza y modelado por iniciar  
 
 ---
