@@ -52,34 +52,6 @@ Construir un modelo predictivo funcional y demostrar un proceso analítico compl
 
 ---
 
-## Estructura del repositorio
-
-Proyecto-Churn
-│
-├── data/
-│ └── telco_churn.csv
-│
-├── notebooks/
-│ └── churn_project.ipynb
-│
-├── docs/
-│ ├── informe_tecnico.pdf
-│ └── bitacora_equipo.md
-│
-├── presentation/
-│ └── pitch_churn.pdf / .pptx
-│
-└── src/
-├── eda.py
-├── preprocessing.py
-├── model.py
-└── evaluation.py
-
-yaml
-Copiar código
-
----
-
 ## Contenido del notebook
 - EDA completo con más de 5 conclusiones reales  
 - Preparación y transformación de datos  
