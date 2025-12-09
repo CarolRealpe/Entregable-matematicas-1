@@ -1,91 +1,60 @@
-# Predicción de Churn de Clientes  
-## Proyecto Integral de Analítica y Modelado de Datos  
-### Aplicando la metodología ASUM-DM
+# Proyecto de Predicción de Churn  
+## Analítica y Modelado aplicando ASUM-DM
 
----
-
-## Descripción general del proyecto
-
-Este proyecto tiene como objetivo analizar, modelar y optimizar un sistema de predicción de fuga de clientes (customer churn) utilizando el dataset **Telco Customer Churn**.  
-El trabajo se desarrolla siguiendo la metodología **ASUM-DM**, una guía estructurada para proyectos de ciencia de datos que cubre desde la comprensión del problema hasta la comunicación de resultados.
-
-El proyecto incluye:
-- Una exploración detallada de los datos (EDA)  
-- Evaluación de la calidad de los datos  
-- Construcción de un modelo base  
-- Optimización del modelo mediante ajuste de parámetros  
-- Elaboración de un informe técnico en PDF  
-- Un notebook completo y reproducible  
-- Una presentación tipo *elevator pitch*  
-- Bitácora y planeación del equipo de trabajo  
+## Descripción del proyecto
+Este proyecto analiza el fenómeno de fuga de clientes (customer churn) usando el dataset **Telco Customer Churn**.  
+El objetivo es identificar los factores asociados al abandono y construir un modelo capaz de predecir el churn.  
+El desarrollo sigue una versión resumida de la metodología **ASUM-DM**, adecuada para un proyecto académico de una semana.
 
 ---
 
 ## Objetivo analítico
-
-Desarrollar un modelo capaz de predecir si un cliente abandonará el servicio (churn), identificando:
-- Los factores más relevantes del comportamiento de fuga  
-- El desempeño del modelo antes y después de la optimización  
-- Conclusiones prácticas para una empresa de telecomunicaciones  
-
----
-
-## Preguntas clave del proyecto
-
-1. ¿Cuáles son los factores demográficos o de servicio más asociados al churn?  
-2. ¿Qué variables presentan mayor correlación con el abandono del cliente?  
-3. ¿Qué modelo de clasificación permite obtener mejores métricas con bajo costo computacional?  
-4. ¿Qué ajustes de optimización mejoran significativamente el rendimiento del modelo?  
-5. ¿Qué conclusiones analíticas pueden apoyar la toma de decisiones de retención de clientes?  
+Construir un modelo predictivo funcional y demostrar un proceso analítico completo que incluya:
+- Exploración de datos (EDA)  
+- Limpieza y preparación  
+- Modelado inicial  
+- Optimización del modelo  
+- Resultados y conclusiones  
 
 ---
 
-## Metodología utilizada: ASUM-DM
+## Metodología ASUM-DM (versión resumida)
 
-Este proyecto sigue las fases de ASUM-DM:
+### **1. Business Understanding**
+- Problema: alto abandono de clientes en telecomunicaciones.  
+- Meta: identificar factores clave y predecir churn.  
 
-### **1. Business Understanding**  
-- Definición del problema  
-- Objetivos del negocio  
-- Necesidades analíticas  
+### **2. Data Understanding**
+- Revisión de estructura del dataset  
+- Identificación de valores faltantes y datos erróneos  
+- Visualizaciones iniciales  
+- Obtención de hallazgos y patrones relevantes  
 
-### **2. Data Understanding**  
-- Exploración inicial  
-- Evaluación de calidad  
-- Identificación de variables críticas  
-- Visualizaciones y primeros hallazgos  
+### **3. Data Preparation**
+- Limpieza de datos inconsistentes  
+- Conversión de variables categóricas  
+- Normalización según necesidad del modelo  
+- Selección de variables predictoras  
 
-### **3. Data Preparation**  
-- Limpieza de datos  
-- Transformaciones  
-- Codificación de variables categóricas  
-- Normalización cuando corresponde  
+### **4. Modeling**
+- Entrenamiento de un modelo base (p. ej. Regresión Logística o Árbol de Decisión)  
+- Obtención de métricas iniciales  
 
-### **4. Modeling**  
-- Selección del algoritmo  
-- Entrenamiento del modelo inicial  
-- Evaluación de métricas base  
+### **5. Evaluation / Optimization**
+- Ajuste de hiperparámetros  
+- Comparación del desempeño antes vs. después  
+- Justificación de cambios aplicados  
 
-### **5. Evaluation & Optimization**  
-- Comparación del modelo optimizado con el modelo inicial  
-- Justificación de los ajustes realizados  
-- Selección final del modelo  
-
-### **6. Deployment**  
-- Entrega del notebook  
-- Informe PDF  
-- Presentación ejecutiva  
-- Opcional: Dashboard  
-
-### **7. Feedback**  
-- Conclusiones finales  
-- Reflexiones sobre el proceso  
-- Recomendaciones  
+### **6. Deployment**
+- Notebook funcional  
+- Informe técnico en PDF  
+- Presentación del proyecto  
 
 ---
 
-## 🗂 Estructura del repositorio
-Proyecto-Churn-ASUMDM
+## Estructura del repositorio
+
+Proyecto-Churn
 │
 ├── data/
 │ └── telco_churn.csv
@@ -94,110 +63,85 @@ Proyecto-Churn-ASUMDM
 │ └── churn_project.ipynb
 │
 ├── docs/
-│ ├── informe_tecnico_ASUMDM.pdf
-│ └── bitacora_equipo.pdf
+│ ├── informe_tecnico.pdf
+│ └── bitacora_equipo.md
 │
 ├── presentation/
-│ └── elevator_pitch_churn.pptx
+│ └── pitch_churn.pdf / .pptx
 │
-└── README.md
+└── src/
+├── eda.py
+├── preprocessing.py
+├── model.py
+└── evaluation.py
 
-
----
-
-## Contenido del Notebook
-
-El notebook contiene:
-
-### EDA completo
-- Análisis de nulos  
-- Detección de anomalías  
-- Distribuciones  
-- Gráficos de churn  
-- Relación entre variables  
-- Más de 5 conclusiones basadas en evidencia  
-
-### Preparación de datos
-- Limpieza  
-- Imputación  
-- One-hot encoding  
-- Selección de variables  
-
-### Modelado
-- Regresión logística (modelo base)  
-- Árbol de decisión (si se requiere comparación)  
-
-### Optimización
-- Ajuste de hiperparámetros como:  
-  - `C`, `max_iter` (Logistic Regression)  
-  - `max_depth`, `criterion` (Decision Tree)  
-- Comparación antes / después  
-
-### Resultados finales
-- Interpretación de métricas  
-- Elección del mejor modelo  
+yaml
+Copiar código
 
 ---
 
-## Equipo de trabajo
-
-| Nombre  | Rol principal | Responsabilidades |
-|---------|---------------|-------------------|
-| **Carol Realpe** | Coordinación general | Repositorio, ASUM-DM, informe técnico |
-| **Luis ______**  | Data Understanding | EDA, visualizaciones y hallazgos |
-| **Miguel ______** | Modelado | Modelo base y replicabilidad |
-| **Sneider ______** | Optimización | Ajuste de hiperparámetros y comparación |
+## Contenido del notebook
+- EDA completo con más de 5 conclusiones reales  
+- Preparación y transformación de datos  
+- Modelo base entrenado  
+- Optimización con hiperparámetros  
+- Comparación de métricas  
+- Interpretación de resultados  
 
 ---
 
-## Bitácora de trabajo del equipo
+## Roles del equipo
+
+| Integrante | Rol | Actividades |
+|-----------|------|-------------|
+| **Carol** | Coordinación | Repositorio, documentación, revisión ASUM-DM |
+| **Luis** | Data Understanding | EDA y visualizaciones |
+| **Miguel** | Modelado | Construcción del modelo base |
+| **Sneider** | Optimización | Ajuste de hiperparámetros y comparación de métricas |
+
+---
+
+## Bitácora del proyecto (1 semana)
 
 ### **Día 1**
 - Creación del repositorio  
+- Organización de carpetas  
 - Descarga del dataset  
-- Plantilla inicial del notebook  
 
-### **Día 2–3**
-- Análisis exploratorio (EDA)  
-- Limpieza y preparación de datos  
+### **Día 2**
+- EDA inicial  
+- Gráficos y calidad del dato  
+
+### **Día 3**
+- Preparación de datos  
+- Transformaciones  
 
 ### **Día 4**
-- Modelado base  
+- Entrenamiento del modelo base  
 
 ### **Día 5**
-- Optimización del modelo  
-- Evaluación comparativa  
+- Optimización y comparación  
 
 ### **Día 6**
-- Elaboración del informe PDF  
+- Elaboración informe PDF  
 
 ### **Día 7**
-- Construcción de la presentación  
-- Revisión final  
+- Presentación final  
 
 ---
 
-## 🛠 Tecnologías utilizadas
-
-- **Python 3.x**  
-- **Pandas, NumPy**  
-- **Matplotlib, Seaborn**  
-- **Scikit-learn**  
-- **Jupyter Notebook**  
-- **Git & GitHub**  
+## Tecnologías utilizadas
+- Python, Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
+- Git y GitHub  
 
 ---
 
 ## Referencias
-
-- Dataset oficial: Telco Customer Churn  
-- IBM Sample Data Sets  
-- Documentación Scikit-learn  
+- Dataset Telco Customer Churn (IBM)  
 - ASUM-DM Framework  
+- Documentación de Scikit-learn  
 
 ---
-
-## Estado final del proyecto
-Este proyecto cumple los requisitos del **Desafío Integral de Análisis, Modelado y Optimización de Datos**, demostrando la aplicación práctica del ciclo ASUM-DM desde el análisis exploratorio inicial hasta la comunicación de resultados.
-
-
