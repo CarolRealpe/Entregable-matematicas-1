@@ -80,20 +80,20 @@ Registrar de manera organizada todas las actividades, tareas, responsabilidades 
 
 # 2. Plan de Trabajo (06–15 de diciembre)
 
-| Fecha | Actividad | Responsable | Estado |
-|-------|-----------|-------------|--------|
-| **06 dic** | Crear repositorio y estructura | Carol | Completado |
-| **06 dic** | Subida del dataset | Luis | Completado |
-| **07 dic** | Evaluación de calidad del dataset | Luis | En proceso |
-| **07 dic** | Crear notebook inicial | Miguel | En proceso |
-| **08 dic** | Realizar EDA preliminar | Miguel | Pendiente |
-| **09 dic** | Limpieza y codificación de datos | Sneider | Pendiente |
-| **10 dic** | Dataset procesado | Sneider | Pendiente |
-| **11 dic** | Modelado inicial | Carol + Sneider | Pendiente |
-| **12 dic** | Optimización del modelo | Carol | Pendiente |
-| **13 dic** | Redacción del informe PDF | Carol | Pendiente |
-| **14 dic** | Ensayo presentación | Todo el equipo | Pendiente |
-| **15 dic** | Entrega final del proyecto | Todo el equipo | Pendiente |
+ | Actividad | Responsable | Estado |
+|-----------|-------------|--------|
+| Crear repositorio y estructura | Carol | Completado |
+| Subida del dataset | Luis | Completado |
+| Evaluación de calidad del dataset | Luis | En proceso |
+| Crear notebook inicial | Miguel | En proceso |
+| Realizar EDA preliminar | Miguel | Pendiente |
+| Limpieza y codificación de datos | Sneider | Pendiente |
+| Dataset procesado | Sneider | Pendiente |
+| Modelado inicial | Carol + Sneider | Pendiente |
+| Optimización del modelo | Carol | Pendiente |
+| Redacción del informe PDF | Carol | Pendiente |
+| Ensayo presentación | Todo el equipo | Pendiente |
+| Entrega final del proyecto | Todo el equipo | Pendiente |
 
 ---
 
