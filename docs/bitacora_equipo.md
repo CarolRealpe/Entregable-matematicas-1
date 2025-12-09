@@ -18,40 +18,63 @@ Registrar de manera organizada todas las actividades, tareas, responsabilidades 
 
 ---
 
-# 1. Roles y Responsabilidades
+# Roles y Responsabilidades del Equipo
 
 ## **Carol — Líder del Proyecto**
-- Crear y organizar el repositorio en GitHub  
-- Definir estructura de carpetas  
-- Redactar el README  
-- Mantener actualizada la bitácora  
-- Integrar los entregables de los compañeros  
-- Supervisar el avance general  
+- Crear y organizar el repositorio en GitHub.
+- Definir la estructura final de carpetas del proyecto.
+- Redactar el archivo README y mantenerlo actualizado.
+- Gestionar y consolidar la bitácora del equipo.
+- Asegurar que cada entregable esté correctamente ubicado en el repositorio.
+- Coordinar reuniones pequeñas del equipo y revisar avances diarios.
+- Unificar notebook, informe técnico y presentación antes de la entrega final.
+- Mantener coherencia metodológica con ASUM-DM.
 
 ---
 
 ## **Luis — Responsable del Dataset**
-- Descargar y almacenar el dataset  
-- Ubicarlo en `/data/raw/`  
-- Evaluar calidad de datos  
-- Identificar nulos, duplicados y tipos  
-- Reportar problemas iniciales  
+- Buscar, descargar y verificar el dataset oficial de Telco Customer Churn.
+- Almacenar correctamente la data en `/data/raw/`.
+- Realizar una descripción inicial del dataset (columnas, tipos, tamaño, etc.).
+- Evaluar la calidad de los datos:
+  - Registros nulos  
+  - Duplicados  
+  - Tipos incorrectos  
+  - Valores inconsistentes
+- Documentar los problemas detectados para que Sneider los solucione.
+- Guardar un **reporte inicial del dataset** en `/docs/reporte_dataset.md` o `/docs/reporte_dataset.pdf`.
 
 ---
 
 ## **Miguel — Especialista en EDA**
-- Crear el notebook principal  
-- Realizar EDA preliminar completo  
-- Hacer visualizaciones (histogramas, correlaciones, etc.)  
-- Redactar primeras conclusiones del EDA  
+- Crear el notebook del EDA en `/notebooks/EDA_churn.ipynb`.
+- Realizar el análisis exploratorio completo:
+  - Distribuciones de variables
+  - Tablas estadísticas
+  - Gráficos relacionados al churn
+  - Matriz de correlación
+  - Comparaciones entre clientes que se van y los que permanecen
+- Redactar un mínimo de cinco conclusiones basadas en evidencia.
+- Identificar variables clave para el modelado.
+- Exportar gráficos para el informe técnico.
+- Guardar versiones preliminares enriquecidas del dataset si es necesario.
 
 ---
 
 ## **Sneider — Limpieza e Ingeniería de Datos**
-- Realizar limpieza del dataset  
-- Imputar datos faltantes  
-- Normalizar/codificar variables  
-- Generar dataset final para modelado  
+- Realizar limpieza completa del dataset según problemas encontrados por Luis:
+  - Imputación de datos faltantes  
+  - Eliminación o revisión de duplicados  
+  - Corrección de tipos de datos  
+  - Normalización cuando corresponda
+- Ingeniería de características (feature engineering):
+  - Codificación de variables categóricas (one-hot encoding o label encoding)
+  - Transformación de columnas relevantes (ej: convertir `TotalCharges` a numérico)
+  - Creación de variables derivadas si aportan valor al modelo
+- Exportar el dataset limpio a `/data/processed/churn_clean.csv`.
+- Documentar todas las transformaciones realizadas.
+- Preparar el dataset final para ser usado en el modelado.
+
 
 ---
 
